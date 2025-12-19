@@ -1,15 +1,16 @@
 package ru.aston.hometask.entity;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.NonNull;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
-@ToString
 @Getter
 @Setter
-@NoArgsConstructor
 public class Student {
     private Long id;
     private String firstName;
@@ -23,10 +24,7 @@ public class Student {
         this.books = books;
     }
 
-    public Student(Long id, String firstName, String lastName) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Student() {
         this.books = new ArrayList<>();
     }
 
@@ -44,5 +42,14 @@ public class Student {
         result = 31 * result + Objects.hashCode(firstName);
         result = 31 * result + Objects.hashCode(lastName);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Student {" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                "}, books:\n\t" + books.stream().map(Book::toString).collect(Collectors.joining(",\n\t"));
     }
 }

@@ -1,5 +1,6 @@
 package ru.aston.hometask.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
 import java.time.Year;
@@ -13,11 +14,17 @@ import java.util.Objects;
 public class Book {
     private String title;
     private String author;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy")
     private Year publicationYear;
     private Integer numberOfPages;
 
     public boolean isPublishedAfterYear(@NonNull Year year) {
         return Objects.nonNull(this.publicationYear) && this.publicationYear.isAfter(year);
+    }
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy")
+    public Year getPublicationYear() {
+        return publicationYear;
     }
 
     @Override
