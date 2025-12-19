@@ -7,7 +7,6 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import ru.aston.hometask.Demonstration;
 import ru.aston.hometask.entity.Book;
 import ru.aston.hometask.entity.Student;
 
@@ -22,7 +21,7 @@ import java.util.Objects;
 class StudentServiceTest {
     public static final Path TEST_ROOT = Paths.get(URI.create(
             Objects.requireNonNull(
-                    Demonstration.class.getResource("/")
+                    StudentServiceTest.class.getResource("/")
             ).toString()));
     private static final Path PATH = TEST_ROOT.resolve("test.json");
     private static final Path EMPTY_PATH = TEST_ROOT.resolve("empty_test.json");
