@@ -30,7 +30,7 @@ class StudentServiceTest {
     private static StudentService studentService;
 
     @BeforeAll
-    static void setUp() throws IOException {
+    static void setUp() {
         ObjectMapper objectMapper = JsonMapper.builder()
                 .addModule(new JavaTimeModule())
                 .build();
