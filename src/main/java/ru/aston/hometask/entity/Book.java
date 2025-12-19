@@ -1,7 +1,12 @@
 package ru.aston.hometask.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.Setter;
+import lombok.ToString;
 
 import java.time.Year;
 import java.util.Objects;
@@ -19,7 +24,7 @@ public class Book {
     private Integer numberOfPages;
 
     public boolean isPublishedAfterYear(@NonNull Year year) {
-        return Objects.nonNull(this.publicationYear) && this.publicationYear.isAfter(year);
+        return Objects.nonNull(publicationYear) && publicationYear.isAfter(year);
     }
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy")

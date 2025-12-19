@@ -1,426 +1,426 @@
 [
-    {
-      "id" : 1,
-      "firstName" : "Ольга",
-      "lastName" : "Николенко",
-      "books" : [
-        {
-          "title" : "Java. Эффективное программирование",
-          "author" : "Джошуа Бох",
-          "publicationYear" : "2019",
-          "numberOfPages" : 464
-        },
-        {
-          "title" : "Грокаем алгоритмы",
-          "author" : "Адитья Бхаргава",
-          "publicationYear" : "2025",
-          "numberOfPages" : 352
-        },
-        {
-          "title" : "Чистый код",
-          "author" : "Роберт Мартин",
-          "publicationYear" : "2025",
-          "numberOfPages" : 464
-        },
-        {
-          "title" : "Паттерны проектирование",
-          "author" : "Эрик Фримен, Элизабет Фримен",
-          "publicationYear" : "2011",
-          "numberOfPages" : 656
-        },
-        {
-          "title" : "Head first java",
-          "author" : "Кэти Сьерра, Берт Бейтс",
-          "publicationYear" : "2022",
-          "numberOfPages" : 720
-        },
-        {
-          "title" : "Spring in Action",
-          "author" : "Крейг Уоллс",
-          "publicationYear" : "2022",
-          "numberOfPages" : 544
-        },
-        {
-          "title" : "Java Полное руководство",
-          "author" : "Герберт Шилдт",
-          "publicationYear" : "2022",
-          "numberOfPages" : 1344
-        }
-      ]
-    },
-    {
-      "id" : 2,
-      "firstName" : "Ваня",
-      "lastName" : "Пупкин",
-      "books" : [
-        {
-          "title" : "Java. Эффективное программирование",
-          "author" : "Джошуа Бох",
-          "publicationYear" : "2019",
-          "numberOfPages" : 464
-        },
-        {
-          "title" : "Чистый код",
-          "author" : "Роберт Мартин",
-          "publicationYear" : "2017",
-          "numberOfPages" : 464
-        },
-        {
-          "title" : "Java Concurrency на практике",
-          "author" : "Брайан Гетц",
-          "publicationYear" : "2022",
-          "numberOfPages" : 464
-        },
-        {
-          "title" : "Философия Java",
-          "author" : "Брюс Эккель",
-          "publicationYear" : "2015",
-          "numberOfPages" : 1168
-        },
-        {
-          "title" : "Программист-прагматик. Путь от подмастерья к мастеру",
-          "author" : "Эндрю Хант",
-          "publicationYear" : "2024",
-          "numberOfPages" : 288
-        }
-      ]
-    },
-    {
-      "id" : 3,
-      "firstName" : "Николай",
-      "lastName" : "Николаев",
-      "books" : [
-        {
-          "title" : "Think Java: How to Think Like a Computer Scientist",
-          "author" : "Аллен Б. Дауни, Крис Мэйфилд",
-          "publicationYear" : "2019",
-          "numberOfPages" : 326
-        },
-        {
-          "title" : "Грокаем алгоритмы",
-          "author" : "Адитья Бхаргава",
-          "publicationYear" : "2021",
-          "numberOfPages" : 352
-        },
-        {
-          "title" : "Код: тайный язык информатики",
-          "author" : "Чарльз Петцольд",
-          "publicationYear" : "2019",
-          "numberOfPages" : 448
-        },
-        {
-          "title" : "Java для чайников",
-          "author" : "Барри Берд",
-          "publicationYear" : "2018",
-          "numberOfPages" : 624
-        },
-        {
-          "title" : "Java. Эффективное программирование",
-          "author" : "Джошуа Бох",
-          "publicationYear" : "2016",
-          "numberOfPages" : 461
-        }
-      ]
-    },
-    {
-      "id" : 4,
-      "firstName" : "Зоя",
-      "lastName" : "Нургалиева",
-      "books" : [
-        {
-          "title" : "Head first java",
-          "author" : "Кэти Сьерра, Берт Бейтс",
-          "publicationYear" : "2022",
-          "numberOfPages" : 720
-        },
-        {
-          "title" : "Философия Java",
-          "author" : "Брюс Эккель",
-          "publicationYear" : "2015",
-          "numberOfPages" : 1168
-        },
-        {
-          "title" : "Код: тайный язык информатики",
-          "author" : "Чарльз Петцольд",
-          "publicationYear" : "2019",
-          "numberOfPages" : 448
-        },
-        {
-          "title" : "Domain-Driven Design: Tackling Complexity in the Heart of Software",
-          "author" : "Eric Evans",
-          "publicationYear" : "2019",
-          "numberOfPages" : 365
-        },
-        {
-          "title" : "Go: идиомы и паттерны проектирования, 2-е изд.",
-          "author" : "Боднер Джон",
-          "publicationYear" : "2025",
-          "numberOfPages" : 790
-        },
-        {
-          "title" : "Компьютерные сети. 6-е изд.",
-          "author" : "Уэзеролл Дэвид, Таненбаум Эндрю",
-          "publicationYear" : "2012",
-          "numberOfPages" : 657
-        },
-        {
-          "title" : "Чистая архитектура. Искусство разработки программного обеспечения",
-          "author" : "Мартин Роберт",
-          "publicationYear" : "2022",
-          "numberOfPages" : 352
-        }
-      ]
-    },
-    {
-      "id" : 5,
-      "firstName" : "Екатерина",
-      "lastName" : "Малащенко",
-      "books" : [
-        {
-          "title" : "Spring in Action",
-          "author" : "Крейг Уоллс",
-          "publicationYear" : "2022",
-          "numberOfPages" : 544
-        },
-        {
-          "title" : "Think Java: How to Think Like a Computer Scientist",
-          "author" : "Аллен Б. Дауни, Крис Мэйфилд",
-          "publicationYear" : "2019",
-          "numberOfPages" : 326
-        },
-        {
-          "title" : "Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем",
-          "author" : "Эванс Эрик",
-          "publicationYear" : "2020",
-          "numberOfPages" : 448
-        },
-        {
-          "title" : "Go: идиомы и паттерны проектирования, 2-е изд.",
-          "author" : "Боднер Джон",
-          "publicationYear" : "2025",
-          "numberOfPages" : 790
-        },
-        {
-          "title" : "Грокаем глубокое обучение",
-          "author" : "Траск Эндрю",
-          "publicationYear" : "2021",
-          "numberOfPages" : 352
-        }
-      ]
-    },
-    {
-      "id" : 6,
-      "firstName" : "Анатолий",
-      "lastName" : "Никитин",
-      "books" : [
-        {
-          "title" : "Java Полное руководство",
-          "author" : "Герберт Шилдт",
-          "publicationYear" : "2022",
-          "numberOfPages" : 1344
-        },
-        {
-          "title" : "Код: тайный язык информатики",
-          "author" : "Чарльз Петцольд",
-          "publicationYear" : "2019",
-          "numberOfPages" : 448
-        },
-        {
-          "title" : "Паттерны проектирования API",
-          "author" : "Гивакс Джей Джей",
-          "publicationYear" : "2023",
-          "numberOfPages" : 785
-        },
-        {
-          "title" : "Компьютерные сети. 6-е изд.",
-          "author" : "Уэзеролл Дэвид, Таненбаум Эндрю",
-          "publicationYear" : "2012",
-          "numberOfPages" : 657
-        },
-        {
-          "title" : "Теоретический минимум по Computer Science. Сети, криптография и data science",
-          "author" : "Фило Владстон Феррейра, Пиктет Мото",
-          "publicationYear" : "2024",
-          "numberOfPages" : 288
-        }
-      ]
-    },
-    {
-      "id" : 7,
-      "firstName" : "Ася",
-      "lastName" : "Резник",
-      "books" : [
-        {
-          "title" : "Java Concurrency на практике",
-          "author" : "Брайан Гетц",
-          "publicationYear" : "2022",
-          "numberOfPages" : 464
-        },
-        {
-          "title" : "Java. Руководство для начинающих",
-          "author" : "Герберт Шилдт",
-          "publicationYear" : "2023",
-          "numberOfPages" : 752
-        },
-        {
-          "title" : "Программирование на Java для начинающих",
-          "author" : "Васильев Алексей Николаевич",
-          "publicationYear" : "2017",
-          "numberOfPages" : 704
-        },
-        {
-          "title" : "Компьютерные сети. 6-е изд.",
-          "author" : "Уэзеролл Дэвид, Таненбаум Эндрю",
-          "publicationYear" : "2012",
-          "numberOfPages" : 657
-        },
-        {
-          "title" : "Архитектура компьютера. 6-е изд.",
-          "author" : "Таненбаум Эндрю, Остин Тодд",
-          "publicationYear" : "2022",
-          "numberOfPages" : 816
-        }
-      ]
-    },
-    {
-      "id" : 8,
-      "firstName" : "Сергей",
-      "lastName" : "Новиков",
-      "books" : [
-        {
-          "title" : "Java. Эффективное программирование",
-          "author" : "Джошуа Бох",
-          "publicationYear" : "2019",
-          "numberOfPages" : 464
-        },
-        {
-          "title" : "Spring in Action",
-          "author" : "Крейг Уоллс",
-          "publicationYear" : "2022",
-          "numberOfPages" : 544
-        },
-        {
-          "title" : "Программист-прагматик. Путь от подмастерья к мастеру",
-          "author" : "Эндрю Хант",
-          "publicationYear" : "2024",
-          "numberOfPages" : 288
-        },
-        {
-          "title" : "Java для чайников",
-          "author" : "Барри Берд",
-          "publicationYear" : "2018",
-          "numberOfPages" : 624
-        },
-        {
-          "title" : "Паттерны объектно-ориентированного проектирования",
-          "author" : "Гамма Эрих, Хелм Ричард",
-          "publicationYear" : "2022",
-          "numberOfPages" : 448
-        },
-        {
-          "title" : "Программирование на Java для начинающих",
-          "author" : "Васильев Алексей Николаевич",
-          "publicationYear" : "2017",
-          "numberOfPages" : 704
-        },
-        {
-          "title" : "Грокаем глубокое обучение",
-          "author" : "Траск Эндрю",
-          "publicationYear" : "2021",
-          "numberOfPages" : 352
-        }
-      ]
-    },
-    {
-      "id" : 9,
-      "firstName" : "Ирина",
-      "lastName" : "Попова",
-      "books" : [
-        {
-          "title" : "Паттерны проектирование",
-          "author" : "Эрик Фримен, Элизабет Фримен",
-          "publicationYear" : "2011",
-          "numberOfPages" : 656
-        },
-        {
-          "title" : "Java Concurrency на практике",
-          "author" : "Брайан Гетц",
-          "publicationYear" : "2022",
-          "numberOfPages" : 464
-        },
-        {
-          "title" : "Грокаем алгоритмы",
-          "author" : "Адитья Бхаргава",
-          "publicationYear" : "2021",
-          "numberOfPages" : 352
-        },
-        {
-          "title" : "Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем",
-          "author" : "Эванс Эрик",
-          "publicationYear" : "2020",
-          "numberOfPages" : 448
-        },
-        {
-          "title" : "Микросервисы. Паттерны разработки и рефакторинга",
-          "author" : "Ричардсон Крис",
-          "publicationYear" : "2016",
-          "numberOfPages" : 840
-        },
-        {
-          "title" : "100 ошибок Java и как их избежать",
-          "author" : "Тагир Валеев",
-          "publicationYear" : "2025",
-          "numberOfPages" : 480
-        },
-        {
-          "title" : "Архитектура компьютера. 6-е изд.",
-          "author" : "Таненбаум Эндрю, Остин Тодд",
-          "publicationYear" : "2022",
-          "numberOfPages" : 816
-        }
-      ]
-    },
-    {
-      "id" : 10,
-      "firstName" : "Иван",
-      "lastName" : "Иванов",
-      "books" : [
-        {
-          "title" : "Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем",
-          "author" : "Эванс Эрик",
-          "publicationYear" : "2020",
-          "numberOfPages" : 448
-        },
-        {
-          "title" : "Паттерны объектно-ориентированного проектирования",
-          "author" : "Гамма Эрих, Хелм Ричард",
-          "publicationYear" : "2022",
-          "numberOfPages" : 448
-        },
-        {
-          "title" : "Go: идиомы и паттерны проектирования, 2-е изд.",
-          "author" : "Боднер Джон",
-          "publicationYear" : "2025",
-          "numberOfPages" : 790
-        },
-        {
-          "title" : "Грокаем глубокое обучение",
-          "author" : "Траск Эндрю",
-          "publicationYear" : "2021",
-          "numberOfPages" : 352
-        },
-        {
-          "title" : "Теоретический минимум по Computer Science. Сети, криптография и data science",
-          "author" : "Фило Владстон Феррейра, Пиктет Мото",
-          "publicationYear" : "2024",
-          "numberOfPages" : 288
-        },
-        {
-          "title" : "Архитектура компьютера. 6-е изд.",
-          "author" : "Таненбаум Эндрю, Остин Тодд",
-          "publicationYear" : "2022",
-          "numberOfPages" : 816
-        }
-      ]
-    }
-  ]
+  {
+    "id": 1,
+    "firstName": "Ольга",
+    "lastName": "Николенко",
+    "books": [
+      {
+        "title": "Java. Эффективное программирование",
+        "author": "Джошуа Бох",
+        "publicationYear": "2019",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Грокаем алгоритмы",
+        "author": "Адитья Бхаргава",
+        "publicationYear": "2025",
+        "numberOfPages": 352
+      },
+      {
+        "title": "Чистый код",
+        "author": "Роберт Мартин",
+        "publicationYear": "2025",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Паттерны проектирование",
+        "author": "Эрик Фримен, Элизабет Фримен",
+        "publicationYear": "2011",
+        "numberOfPages": 656
+      },
+      {
+        "title": "Head first java",
+        "author": "Кэти Сьерра, Берт Бейтс",
+        "publicationYear": "1997",
+        "numberOfPages": 720
+      },
+      {
+        "title": "Spring in Action",
+        "author": "Крейг Уоллс",
+        "publicationYear": "2022",
+        "numberOfPages": 544
+      },
+      {
+        "title": "Java Полное руководство",
+        "author": "Герберт Шилдт",
+        "publicationYear": "1999",
+        "numberOfPages": 1344
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "firstName": "Ваня",
+    "lastName": "Пупкин",
+    "books": [
+      {
+        "title": "Java. Эффективное программирование",
+        "author": "Джошуа Бох",
+        "publicationYear": "2019",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Чистый код",
+        "author": "Роберт Мартин",
+        "publicationYear": "2017",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Java Concurrency на практике",
+        "author": "Брайан Гетц",
+        "publicationYear": "1996",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Философия Java",
+        "author": "Брюс Эккель",
+        "publicationYear": "2015",
+        "numberOfPages": 1168
+      },
+      {
+        "title": "Программист-прагматик. Путь от подмастерья к мастеру",
+        "author": "Эндрю Хант",
+        "publicationYear": "1994",
+        "numberOfPages": 288
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "firstName": "Николай",
+    "lastName": "Николаев",
+    "books": [
+      {
+        "title": "Think Java: How to Think Like a Computer Scientist",
+        "author": "Аллен Б. Дауни, Крис Мэйфилд",
+        "publicationYear": "2019",
+        "numberOfPages": 326
+      },
+      {
+        "title": "Грокаем алгоритмы",
+        "author": "Адитья Бхаргава",
+        "publicationYear": "2021",
+        "numberOfPages": 352
+      },
+      {
+        "title": "Код: тайный язык информатики",
+        "author": "Чарльз Петцольд",
+        "publicationYear": "1992",
+        "numberOfPages": 448
+      },
+      {
+        "title": "Java для чайников",
+        "author": "Барри Берд",
+        "publicationYear": "1989",
+        "numberOfPages": 624
+      },
+      {
+        "title": "Java. Эффективное программирование",
+        "author": "Джошуа Бох",
+        "publicationYear": "2016",
+        "numberOfPages": 461
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "firstName": "Зоя",
+    "lastName": "Нургалиева",
+    "books": [
+      {
+        "title": "Head first java",
+        "author": "Кэти Сьерра, Берт Бейтс",
+        "publicationYear": "2022",
+        "numberOfPages": 720
+      },
+      {
+        "title": "Философия Java",
+        "author": "Брюс Эккель",
+        "publicationYear": "2015",
+        "numberOfPages": 1168
+      },
+      {
+        "title": "Код: тайный язык информатики",
+        "author": "Чарльз Петцольд",
+        "publicationYear": "1998",
+        "numberOfPages": 448
+      },
+      {
+        "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+        "author": "Eric Evans",
+        "publicationYear": "1991",
+        "numberOfPages": 365
+      },
+      {
+        "title": "Go: идиомы и паттерны проектирования, 2-е изд.",
+        "author": "Боднер Джон",
+        "publicationYear": "2025",
+        "numberOfPages": 790
+      },
+      {
+        "title": "Компьютерные сети. 6-е изд.",
+        "author": "Уэзеролл Дэвид, Таненбаум Эндрю",
+        "publicationYear": "1979",
+        "numberOfPages": 657
+      },
+      {
+        "title": "Чистая архитектура. Искусство разработки программного обеспечения",
+        "author": "Мартин Роберт",
+        "publicationYear": "2022",
+        "numberOfPages": 352
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "firstName": "Екатерина",
+    "lastName": "Малащенко",
+    "books": [
+      {
+        "title": "Spring in Action",
+        "author": "Крейг Уоллс",
+        "publicationYear": "2022",
+        "numberOfPages": 544
+      },
+      {
+        "title": "Think Java: How to Think Like a Computer Scientist",
+        "author": "Аллен Б. Дауни, Крис Мэйфилд",
+        "publicationYear": "2019",
+        "numberOfPages": 326
+      },
+      {
+        "title": "Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем",
+        "author": "Эванс Эрик",
+        "publicationYear": "2020",
+        "numberOfPages": 448
+      },
+      {
+        "title": "Go: идиомы и паттерны проектирования, 2-е изд.",
+        "author": "Боднер Джон",
+        "publicationYear": "2025",
+        "numberOfPages": 790
+      },
+      {
+        "title": "Грокаем глубокое обучение",
+        "author": "Траск Эндрю",
+        "publicationYear": "2021",
+        "numberOfPages": 352
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "firstName": "Анатолий",
+    "lastName": "Никитин",
+    "books": [
+      {
+        "title": "Java Полное руководство",
+        "author": "Герберт Шилдт",
+        "publicationYear": "2022",
+        "numberOfPages": 1344
+      },
+      {
+        "title": "Код: тайный язык информатики",
+        "author": "Чарльз Петцольд",
+        "publicationYear": "2019",
+        "numberOfPages": 448
+      },
+      {
+        "title": "Паттерны проектирования API",
+        "author": "Гивакс Джей Джей",
+        "publicationYear": "2023",
+        "numberOfPages": 785
+      },
+      {
+        "title": "Компьютерные сети. 6-е изд.",
+        "author": "Уэзеролл Дэвид, Таненбаум Эндрю",
+        "publicationYear": "1998",
+        "numberOfPages": 657
+      },
+      {
+        "title": "Теоретический минимум по Computer Science. Сети, криптография и data science",
+        "author": "Фило Владстон Феррейра, Пиктет Мото",
+        "publicationYear": "2024",
+        "numberOfPages": 288
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "firstName": "Ася",
+    "lastName": "Резник",
+    "books": [
+      {
+        "title": "Java Concurrency на практике",
+        "author": "Брайан Гетц",
+        "publicationYear": "2022",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Java. Руководство для начинающих",
+        "author": "Герберт Шилдт",
+        "publicationYear": "2023",
+        "numberOfPages": 752
+      },
+      {
+        "title": "Программирование на Java для начинающих",
+        "author": "Васильев Алексей Николаевич",
+        "publicationYear": "2017",
+        "numberOfPages": 704
+      },
+      {
+        "title": "Компьютерные сети. 6-е изд.",
+        "author": "Уэзеролл Дэвид, Таненбаум Эндрю",
+        "publicationYear": "2009",
+        "numberOfPages": 657
+      },
+      {
+        "title": "Архитектура компьютера. 6-е изд.",
+        "author": "Таненбаум Эндрю, Остин Тодд",
+        "publicationYear": "1988",
+        "numberOfPages": 816
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "firstName": "Сергей",
+    "lastName": "Новиков",
+    "books": [
+      {
+        "title": "Java. Эффективное программирование",
+        "author": "Джошуа Бох",
+        "publicationYear": "2019",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Spring in Action",
+        "author": "Крейг Уоллс",
+        "publicationYear": "2022",
+        "numberOfPages": 544
+      },
+      {
+        "title": "Программист-прагматик. Путь от подмастерья к мастеру",
+        "author": "Эндрю Хант",
+        "publicationYear": "2024",
+        "numberOfPages": 288
+      },
+      {
+        "title": "Java для чайников",
+        "author": "Барри Берд",
+        "publicationYear": "2018",
+        "numberOfPages": 624
+      },
+      {
+        "title": "Паттерны объектно-ориентированного проектирования",
+        "author": "Гамма Эрих, Хелм Ричард",
+        "publicationYear": "2022",
+        "numberOfPages": 448
+      },
+      {
+        "title": "Программирование на Java для начинающих",
+        "author": "Васильев Алексей Николаевич",
+        "publicationYear": "2017",
+        "numberOfPages": 704
+      },
+      {
+        "title": "Грокаем глубокое обучение",
+        "author": "Траск Эндрю",
+        "publicationYear": "2021",
+        "numberOfPages": 352
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "firstName": "Ирина",
+    "lastName": "Попова",
+    "books": [
+      {
+        "title": "Паттерны проектирование",
+        "author": "Эрик Фримен, Элизабет Фримен",
+        "publicationYear": "2011",
+        "numberOfPages": 656
+      },
+      {
+        "title": "Java Concurrency на практике",
+        "author": "Брайан Гетц",
+        "publicationYear": "2022",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Грокаем алгоритмы",
+        "author": "Адитья Бхаргава",
+        "publicationYear": "2021",
+        "numberOfPages": 352
+      },
+      {
+        "title": "Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем",
+        "author": "Эванс Эрик",
+        "publicationYear": "2020",
+        "numberOfPages": 448
+      },
+      {
+        "title": "Микросервисы. Паттерны разработки и рефакторинга",
+        "author": "Ричардсон Крис",
+        "publicationYear": "2016",
+        "numberOfPages": 840
+      },
+      {
+        "title": "100 ошибок Java и как их избежать",
+        "author": "Тагир Валеев",
+        "publicationYear": "2025",
+        "numberOfPages": 480
+      },
+      {
+        "title": "Архитектура компьютера. 6-е изд.",
+        "author": "Таненбаум Эндрю, Остин Тодд",
+        "publicationYear": "1997",
+        "numberOfPages": 816
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "books": [
+      {
+        "title": "Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем",
+        "author": "Эванс Эрик",
+        "publicationYear": "2020",
+        "numberOfPages": 448
+      },
+      {
+        "title": "Паттерны объектно-ориентированного проектирования",
+        "author": "Гамма Эрих, Хелм Ричард",
+        "publicationYear": "2022",
+        "numberOfPages": 448
+      },
+      {
+        "title": "Go: идиомы и паттерны проектирования, 2-е изд.",
+        "author": "Боднер Джон",
+        "publicationYear": "2025",
+        "numberOfPages": 790
+      },
+      {
+        "title": "Грокаем глубокое обучение",
+        "author": "Траск Эндрю",
+        "publicationYear": "2021",
+        "numberOfPages": 352
+      },
+      {
+        "title": "Теоретический минимум по Computer Science. Сети, криптография и data science",
+        "author": "Фило Владстон Феррейра, Пиктет Мото",
+        "publicationYear": "2024",
+        "numberOfPages": 288
+      },
+      {
+        "title": "Архитектура компьютера. 6-е изд.",
+        "author": "Таненбаум Эндрю, Остин Тодд",
+        "publicationYear": "2022",
+        "numberOfPages": 816
+      }
+    ]
+  }
+]

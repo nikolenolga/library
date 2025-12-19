@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "firstName": "TestFirstName",
+    "lastName": "TestLastName",
+    "books": [
+      {
+        "title": "Test book title",
+        "author": "Test book author",
+        "publicationYear": "2013",
+        "numberOfPages": 464
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "books": [
+      {
+        "title": "Java. Эффективное программирование",
+        "author": "Джошуа Бох",
+        "publicationYear": "2025",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Чистый код",
+        "author": "Роберт Мартин",
+        "publicationYear": "2017",
+        "numberOfPages": 464
+      },
+      {
+        "title": "Java Concurrency на практике",
+        "author": "Брайан Гетц",
+        "publicationYear": "2022",
+        "numberOfPages": 464
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "firstName": "Николай",
+    "lastName": "Николаев"
+  }
+]

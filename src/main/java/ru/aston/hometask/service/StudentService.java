@@ -6,9 +6,11 @@ import lombok.NonNull;
 import ru.aston.hometask.entity.Book;
 import ru.aston.hometask.entity.Student;
 
-import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.time.Year;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
@@ -37,9 +39,12 @@ public class StudentService {
                 );
     }
 
-    public List<Student> getStudentListFromPath(String path) throws IOException {
-        return objectMapper.readValue(new File(path), new TypeReference<List<Student>>() {
+    public List<Student> getStudentListFromPath(Path path) throws IOException {
+        String jsonString = Files.readString(path);
+        if (jsonString.isBlank()) {
+            return new ArrayList<>();
+        }
+        return objectMapper.readValue(jsonString, new TypeReference<List<Student>>() {
         });
     }
-
 }
