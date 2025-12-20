@@ -1,0 +1,49 @@
+package ru.aston.hometask.entity;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.Setter;
+import lombok.ToString;
+
+import java.time.Year;
+import java.util.Objects;
+
+@ToString
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class Book {
+    private String title;
+    private String author;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy")
+    private Year publicationYear;
+    private Integer numberOfPages;
+
+    public boolean isPublishedAfterYear(@NonNull Year year) {
+        return Objects.nonNull(publicationYear) && publicationYear.isAfter(year);
+    }
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy")
+    public Year getPublicationYear() {
+        return publicationYear;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Book book = (Book) o;
+        return Objects.equals(title, book.title) && Objects.equals(author, book.author);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hashCode(title);
+        result = 31 * result + Objects.hashCode(author);
+        return result;
+    }
+}
