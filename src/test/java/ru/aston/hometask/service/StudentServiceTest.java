@@ -38,54 +38,54 @@ class StudentServiceTest {
 
     @Test
     void givenWrongJson_whenGetStudentListFromPath_thenThrowsDatabindException() {
-        //when //then
+        /* when then */
         Assertions.assertThrows(JsonParseException.class, () -> studentService.getStudentListFromPath(WRONG_PATH));
     }
 
     @Test
     void givenEmptyJson_whenGetStudentListFromPath_thenReturnEmptyList() throws IOException {
-        //when
+        /* when */
         List<Student> students = studentService.getStudentListFromPath(EMPTY_PATH);
-        //then
+        /* then */
         Assertions.assertTrue(students.isEmpty());
     }
 
     @Test
     void givenJsonWithThreeStudents_whenGetStudentListFromPath_thenReturnStudentListWithThreeStudents() throws IOException {
-        //given
+        /* given */
         int expected = 3;
-        //when
+        /* when */
         List<Student> students = studentService.getStudentListFromPath(PATH);
-        //then
+        /* then */
         Assertions.assertEquals(3, students.size());
     }
 
     @Test
     void givenJsonWithStudentWithThreeBooks_whenGetStudentListFromPath_thenReturnStudentListWithStudentWithThreeBooks() throws IOException {
-        //given
+        /* given */
         int expected = 3;
-        //when
+        /* when */
         List<Student> students = studentService.getStudentListFromPath(PATH);
-        //then
+        /* then */
         List<Book> books = students.get(1).getBooks();
         Assertions.assertEquals(3, books.size());
     }
 
     @Test
     void givenJsonWithThreeStudent_whenGetStudentListFromPath_thenReturnStudentListContainingCurrentStudent() throws IOException {
-        //given
+        /* given */
         Student expected = new Student(3L, "Николай", "Николаев", new ArrayList<>());
-        //when
+        /* when */
         List<Student> students = studentService.getStudentListFromPath(PATH);
-        //then
+        /* then */
         Assertions.assertTrue(students.contains(expected));
     }
 
     @Test
     void givenJsonWithStudentWithoutBooks_whenGetStudentListFromPath_thenReturnStudentListWithStudentWithEmptyBookList() throws IOException {
-        //given //when
+        /* when then */
         List<Student> students = studentService.getStudentListFromPath(PATH);
-        //then
+        /* then */
         List<Book> books = students.get(2).getBooks();
         Assertions.assertTrue(books.isEmpty());
     }

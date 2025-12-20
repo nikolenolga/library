@@ -16,6 +16,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class StudentService {
+    private static final TypeReference<List<Student>> STUDENT_LIST_TYPE_REFERENCE = new TypeReference<>() {};
     private final ObjectMapper objectMapper;
 
     public StudentService(ObjectMapper objectMapper) {
@@ -35,7 +36,7 @@ public class StudentService {
                 .findAny()
                 .ifPresentOrElse(
                         System.out::println,
-                        () -> System.out.printf("Книги с датой выпуска после %s года отсутствует.%n", afterYear)
+                        () -> System.out.printf("No books with published after %s year.%n", afterYear)
                 );
     }
 
@@ -44,7 +45,7 @@ public class StudentService {
         if (jsonString.isBlank()) {
             return new ArrayList<>();
         }
-        return objectMapper.readValue(jsonString, new TypeReference<List<Student>>() {
-        });
+
+        return objectMapper.readValue(jsonString, STUDENT_LIST_TYPE_REFERENCE);
     }
 }
